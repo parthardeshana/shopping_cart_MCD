@@ -5,7 +5,7 @@ import RightCart from "../components/RightCart";
 
 
 function CartwithRouter(props) {
-	const { McDonals, subTotal } = useContext(McDonalsContext);
+	const { subTotal } = useContext(McDonalsContext);
 	const cartSubTotal = subTotal[0];
 
 	let GSTTax = subTotal[0] * (5 / 100);

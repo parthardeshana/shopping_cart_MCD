@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import BurgerItems from "../components/BurgerItems";
 import { withRouter } from "react-router";
 import RightCart from "../components/RightCart";
